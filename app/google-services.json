@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "379654294484",
+    "firebase_url": "https://tubesiot-a2e9c.firebaseio.com",
+    "project_id": "tubesiot-a2e9c",
+    "storage_bucket": "tubesiot-a2e9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379654294484:android:f06fad3af088d60f",
+        "android_client_info": {
+          "package_name": "com.example.smartaquarium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379654294484-8rnfr550fc5uacbb99tgrs7a6ensptog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartaquarium",
+            "certificate_hash": "59c62d4fc50bb5ce2a4b050a364ded3c582cccc1"
+          }
+        },
+        {
+          "client_id": "379654294484-erc5rj840ou7p36hj9h590o9tdgeikgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD92F_fEXVvS3Bv3X5HB9-noaQVMC9S5uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379654294484-erc5rj840ou7p36hj9h590o9tdgeikgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
