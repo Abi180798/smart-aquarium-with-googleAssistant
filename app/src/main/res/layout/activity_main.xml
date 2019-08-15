@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/fish"
     tools:context=".MainActivity">
 
     <TextView
@@ -22,37 +22,90 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/hasil"
-            android:layout_weight="1"
-            android:textAlignment="center"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
-            android:layout_margin="20dp"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/hasil1"
-            android:layout_weight="1"
-            android:textAlignment="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Your Speek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/hasil"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
-            android:layout_margin="20dp"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/action"
-            android:layout_weight="1"
-            android:textAlignment="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:text="Smart Aquarium Reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="15dp"
+                android:id="@+id/hasil1"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
-            android:layout_margin="20dp"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/status"
-            android:layout_weight="1"
-            android:textAlignment="center"
-            android:layout_width="match_parent"
-            android:layout_margin="20dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Action"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/action"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_margin="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="15dp"
+               android:layout_weight="1"
+               android:textAlignment="center"
+               android:text="Volume Isi Makanan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/status"
+               android:layout_weight="1"
+               android:textAlignment="center"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+
         <Button
             android:id="@+id/btn"
             android:layout_weight="1"
+            android:layout_marginTop="70dp"
             android:text="Feed Fish"
             android:layout_marginRight="100dp"
             android:layout_marginLeft="100dp"

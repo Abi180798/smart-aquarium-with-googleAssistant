@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements AIListener{
             public void onInit(int status) {
                 if (status == TextToSpeech.SUCCESS){
                     textToSpeech.setLanguage(Locale.ENGLISH);
-                    int result = textToSpeech.setLanguage(Locale.GERMAN);
+                    int result = textToSpeech.setLanguage(Locale.ENGLISH);
 
                     if (result == TextToSpeech.LANG_MISSING_DATA
                             || result == TextToSpeech.LANG_NOT_SUPPORTED) {
